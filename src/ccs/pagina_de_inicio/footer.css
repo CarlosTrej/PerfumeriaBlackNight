@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Roboto+Slab:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Nunito',sans-serif;
+    text-decoration: none;
+}
+
+
+
+footer{
+    width: 100%;
+    padding: 0px 0px;
+    background-size: cover;
+    background:#1D1E26;
+    display:flex ;
+    justify-content: space-around;
+    
+    
+   
+}
+.container_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+}
+.box__footer{
+    
+    display: flex;
+    flex-direction: row;
+    padding: 22px;
+    
+}
+.redes{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.box__footer .logo img{
+    width: 200px;
+}
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 10px;
+    font-weight: 500;
+    color:#0E8784;
+    font-size: 18px;
+    
+}
+
+.box__footer  h2{
+ 
+    margin-bottom: 30px;
+    color:#ffffff;
+    font-weight: 700;
+    
+}
+
+.box__footer a{
+    margin-top: 8px;
+    color:#ffffff;
+    font-weight: 600;
+    
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+.box__footer a .fab{
+    font-size: 20px;
+    
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px, 40px;
+}
+.box__copyright p{
+    margin-top: 20px;
+    color:#ffffff;
+}
+.box__copyright hr{
+    height: 1px;
+    background-color:#ffffff;
+}
+ .box__footer{
+     font-size: 30px;
+
+ }
+ .box__footer .bi{
+    color: #ffffff;
+ }

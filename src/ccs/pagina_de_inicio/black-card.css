@@ -1,0 +1,40 @@
+
+.black-card{
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-top:300px;
+height: 10px;
+padding: 0 7em;
+
+    
+
+}
+.card_2 {
+
+    border-radius: 10px;
+  border-color: none;
+   box-shadow:none;
+padding: 16px;
+ 
+text-align: center;
+
+margin-left: 20;
+margin-right: 20;
+height:450px;
+background-color: black;
+border: 4px inset white;
+
+}
+
+.card_2 h2{
+font-size: 50px;
+    padding: 10px;
+    font-family: 'Fraunces', serif;
+}
+.card_2 h5{
+    font-family: 'Fraunces', serif;
+text-align: center;
+    font-size: 15px;
+padding: 5px;
+}

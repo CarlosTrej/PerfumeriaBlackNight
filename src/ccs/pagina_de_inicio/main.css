@@ -1,0 +1,169 @@
+@import url('./Container.css');
+@import url('./hero.css');
+@import url('./titulo_1.css');
+@import url('./black-card.css');
+@import url('./navbar.css');
+@import url('./footer.css');
+@import url('contact.css');
+@import url('./carritoCompras.css');
+@import url('acercaDeNosotros.css');
+
+@import url("./../registro.css");
+@import url("./../addcard.css");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+@import url("./detail.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Nunito:ital,wght@0,200;1,200&family=Roboto+Slab:wght@300&display=swap');
+@import url('./aboutMe.css');
+
+/* cards de los productos */
+
+body{
+    font-family: 'Barlow', sans-serif;
+}
+.container{
+display:  flex;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+h2,h3,h4,h5,h1{
+    font-family: 'PT Sans', sans-serif; 
+    ;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+}
+
+.card{
+background:#FEFCF7 ;
+width: 330px;
+height: 550px;
+ margin: 18px;
+ border-radius: 15px ;
+ padding:  0 0 4em 0;
+ font-weight: 500;
+
+ 
+ }
+ 
+.card-image{
+background-color: #FEFCF7;
+height: 300px;
+margin-bottom: 18px;
+background-size: cover;
+border-radius: 15px 15px 0 0 ;
+
+
+}
+
+.car-1{
+  margin: -1em 0;
+  padding: 4em 0;
+background-image: url(/src/images/images_index/hombre.png);
+
+}
+.car-2{
+    margin: -1em 0;
+    padding: 4em 0;
+    background-image: url(/src/images/images_index/mujer.png);
+  }
+
+.car-3{
+  background-image: url(/src/images/images_index/niño.png);
+  margin: -1em 0;
+  padding: 4em 0;
+}
+ .car-4{
+     background-image: url(/src/images/images_index/CortePremium.png);
+ }
+
+ .car-5{
+     background-image: url(/src/images/images_index/corteRes.png);
+ }
+
+#res{
+    padding: 6px;
+    text-align: center;
+    
+
+}
+
+
+.card h2{
+    padding: 18px;
+    text-align: center;
+   
+    
+}
+
+.card p{
+    text-align: center;
+    padding: 10px;
+}
+
+.card a{
+
+    border-radius: 20px;
+    background-color: #0E8784;
+    border: 3px outset #0E8784;
+    color:#FEFCF7;
+    font-size: 1.3em;
+    font-weight:700;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover{
+background-color: rgb(118, 114, 114);
+
+color: whitesmoke;
+cursor: pointer;
+transform: scale(1.03);
+transition: all 0.1s ease;
+
+}
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  
+  #form p {
+    text-align: center;
+    
+  }
+  
+  #form label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    font-size: 2em;
+    color: black;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: #0E8784;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: #0E8784;
+  }
+
+  

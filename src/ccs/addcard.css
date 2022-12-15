@@ -1,0 +1,41 @@
+#addcard {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: black;
+    color: black;
+    font-weight: 700;
+    box-shadow: 10px 10px 10px 5px #000;
+    color: white;
+    font-size: 1.4em;
+  }
+  
+  @media (max-width:767px) {
+   
+  }
+
+#añadir {
+    color:#FEFCF7/* #E9C9B2 */;
+    font-weight:bold;
+    background-color: #0E8784;
+    border: 3px outset #0E8784;
+    padding: 0 0 1.5em 0;
+    font-size:0.9em;
+   
+}
+
+#upload_widget{
+  color:#FEFCF7;
+  background-clip: padding-box;
+  border-radius: 0.25rem;
+  background-color: #0E8784;
+  border: 3px outset #0E8784;
+  line-height: 1.5;
+  font-weight: bold;
+  width: 100%;
+  text-rendering: auto;
+  font-size:0.9em;
+}

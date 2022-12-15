@@ -1,0 +1,22 @@
+.titulo_1{
+    background: -webkit-linear-gradient( top, rgb(129, 127, 127), white);
+  background: linear-gradient(to  rgb(129, 127, 127), white);
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: solid;
+           right: 650;
+            font-size: 400%;
+            font-weight: 700;
+           text-align: center;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-family: 'Outfit', sans-serif; 
+}
+
+@media screen and (max-width: 550px) {
+.titulo_1{
+    width: 95%;
+    font-size: 250%;
+}
+
+}

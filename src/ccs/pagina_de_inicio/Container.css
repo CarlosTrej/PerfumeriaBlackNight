@@ -1,0 +1,81 @@
+/* Cards verdes */
+.Container{
+display: flex;
+align-items: center;
+justify-content: center;
+
+background: #FEFCF7 ;
+padding: 0 20px;
+margin-bottom: 30px;
+
+}
+
+.card-Container{
+    display: flex;
+    width: 40%;
+    height: 50%;
+    background: #000000;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,.2);
+}
+.header{
+    border-right: 1px, solid  #ddd;
+
+}
+
+.description{
+background: #000000;
+
+}
+
+.header, .description{
+    padding: 20px;
+text-align: center;
+
+}
+
+.header a{
+    position: relative;
+    display: block;
+}
+
+.description{
+    position: relative;
+}
+.description p{
+    
+margin:20px 30px;
+
+}
+
+@media (max-width:400px)
+{.card-Container{
+    display: block;
+    width: 300px;
+}
+
+.header{
+    padding: 20px 20px  20px 20px ;
+    border: none;
+}
+.description{
+    padding: 20px 20px  20px 20px ;
+background: transparent;
+}
+
+
+}
+
+/* iconos */
+i{
+    color: #fdd6ba;
+    padding-left: 20px;
+    padding-bottom: 40px;
+  float: left;
+  font-size: 50px;
+  }
+  
+
+
+  
+

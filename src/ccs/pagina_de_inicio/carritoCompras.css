@@ -1,0 +1,66 @@
+table#cart {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table#cart th,
+  table#cart td {
+    padding: 0.5em;
+    border: inset #ffffff;
+    text-align: center;
+  }
+  table#cart th{
+    background-color: #000000;
+    color: #ffff;
+    
+  }
+  
+  table#cart td {
+    border: 1px inset #e1e0e0;
+  }
+  
+  table#cart tfoot {
+    background: #FEFCF7;
+  }
+  
+  input {
+    font: inherit;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: inherit;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .btn-success {
+    color: #FEFCF7;
+    background-color: #0E8784;
+    border-color: #0E8784;
+  }
+  .btn-dark {
+    color: #FEFCF7;
+    background-color: black;
+    border-color: black;
+  }
+  
+  h1,
+  .cta,
+  h2 {
+    font-family: 'Fraunces', serif;
+    text-align: center;
+  }
+
+  #text-title{
+    border: 1px inset #e1e0e0;
+    border-radius: 6%;
+    background-color: #000000;
+    color: white;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  

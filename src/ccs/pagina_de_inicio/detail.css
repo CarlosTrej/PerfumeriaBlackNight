@@ -1,0 +1,16 @@
+#img-detail{
+    border-radius: 8%;
+    align-content: center; 
+    
+    
+}
+
+#content-detail{
+    border: 4px outset;
+    border-radius: 5%; 
+}
+
+#list-products-details{
+    border:10px double whitesmoke ;
+    align-content: center; 
+}

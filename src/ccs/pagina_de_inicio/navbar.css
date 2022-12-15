@@ -1,0 +1,42 @@
+.bg-light{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px; 
+
+}
+.bg-light .navbar-brand{
+    margin-top: 25px;
+    font-size: 25px;
+}
+.bg-light .navbar-brand img{
+    width: 60px;
+    height: 60px;
+}
+.form-inline{
+    color: black;
+}
+#icono{
+    color: black;
+    padding-bottom: 0;
+    font-size: 25px;
+}
+.navbar-collapse .nav-item .nav-link .bi-cart4{
+    padding-right: 50px;
+    font-size: 25px;
+}
+.navbar-collapse .mt-lg-0 .active{
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+.dropdown-toggle::after{
+    color: black;
+}
+
+#formBlack{
+    color:black;
+}
