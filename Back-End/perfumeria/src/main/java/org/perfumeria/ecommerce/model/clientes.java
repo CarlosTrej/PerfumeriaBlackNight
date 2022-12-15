@@ -9,10 +9,14 @@ import javax.persistence.Table;
 
 import org.perfumeria.utils.SHAUtil;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 /**
  * @author CarlosTrejo
  *
  */
+@ApiModel(description = "Todos los detalles acerca de clientes. ")
 @Entity
 @Table(name = "clientes")
 public class clientes {
@@ -21,11 +25,17 @@ public class clientes {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_cliente", unique = true, nullable = false)
 	private Long id_cliente;
+	@ApiModelProperty(notes= "Correo del cliente")
 	private String correo;
+	@ApiModelProperty(notes= "Nombre del cliente")
 	private String nombre;
+	@ApiModelProperty(notes= "Apellido Paterno del cliente")
 	private String apellidop;
+	@ApiModelProperty(notes= "Apellido Materno del cliente")
 	private String apellidom;
+	@ApiModelProperty(notes= "Edad del cliente")
 	private Long edad;
+	@ApiModelProperty(notes= "Contraseña del cliente")
 	private String contraseña;
 	
 	public clientes(Long id_cliente, String correo, String nombre, String apellidop, String apellidom, Long edad,
