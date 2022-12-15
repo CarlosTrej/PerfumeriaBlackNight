@@ -119,6 +119,12 @@ background-image: url(/src/images/images_index/hombre.png);
     text-decoration: none;
 }
 
+.card a:hover{
+  background-color: #18b4b2;
+  border: 3px outset #1cf5f1;
+  color:#212205;
+}
+
 .card:hover{
 background-color: rgb(118, 114, 114);
 

@@ -39,3 +39,16 @@
   text-rendering: auto;
   font-size:0.9em;
 }
+
+
+#upload_widget:hover{
+  background-color: #1ff0ed;
+  border: 3px outset #1cf5f1;
+  color:#212205;
+}
+
+#añadir:hover{
+  background-color: #1ff0ed;
+  border: 3px outset #1cf5f1;
+  color:#212205;
+}

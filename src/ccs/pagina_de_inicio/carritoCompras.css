@@ -62,5 +62,37 @@ table#cart {
     margin-left: 30%;
     margin-right: 30%;
   }
+
+  .btnCar{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+  }
+
+  .btnCar button{
+    padding: 0.8em 4em;
+    border-radius: 8px;
+    background-color: #0E8784;
+    border: 3px outset #0E8784;
+    color:#FEFCF7;
+    font-size: 1.6em;
+    font-weight:800;
+  }
+
+  #btnLimpiar{
+    background-color: #870e0e;
+    border: 3px outset #870e0e;
+  }
+
+  #btnLimpiar:hover{
+    background-color: #ff1c1c;
+    border: 3px outset #ff1c1c;
+  }
+
+  #btnComprar:hover{
+    background-color: #1ff0ed;
+    border: 3px outset #1cf5f1;
+    color:#212205;
+  }
   
   
