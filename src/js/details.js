@@ -166,10 +166,29 @@ function addItem(iD){
   }//function
 
   function redirectCar(x){
-    setTimeout(function(){
+
+    searchSesion();
+    if(searchSesion() == null){
+      alertModal("Necesitas logearte para poder comprar");
+      setTimeout(function(){
+        location.href = `./products.html`;
+      },3000);
+    }else{
+      setTimeout(function(){
         location.href = `./carritoCompras.html?id=${x}`;
-    },500);
+      },500);
+    }
 
 }/* redirect */
 
-
+function alertModal(text){
+  Swal.fire({
+      title: 'Inicia Sesión',
+      text: `¡${text}!`,
+      icon: 'warning',   
+      showConfirmButton: false,
+      timer: 2500,
+      
+      
+    })
+}/* function alertModal */

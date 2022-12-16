@@ -81,7 +81,7 @@ function initSesion(idsesion){
 function alertmodal(){
   Swal.fire({
       title: '¿Quieres cerrar tu sesión?',
-      icon: 'warning',
+      icon: 'info',
       showCancelButton: true,
       confirmButtonColor: '#0E8784',
       cancelButtonColor: 'black',
